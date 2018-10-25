@@ -3,11 +3,12 @@
 SUPER EFFICIENT DRAWING BOARD
 
 ## Why should I do it?
-1. The best solution will receive an Amazon Kidnle
-<br />
+1. The best solution will receive an Amazon Kindle
+<br /><br />
 <img src="https://images-na.ssl-images-amazon.com/images/I/51hrdzXLUHL.jpg" width=100>
+
 2. The second best solution will receive a Sony Headphone
-<br />
+<br /><br />
 <img src="https://brain-images-ssl.cdn.dixons.com/4/9/10145294/u_10145294.jpg" width=100>
 
 ## Ok... But what am I supposed to do?
@@ -29,11 +30,38 @@ SUPER EFFICIENT DRAWING BOARD
 2. Store the events in a way that you require the least amount of data to replay the whole drawing.
 3. This data should be as compressed as possible.
 4. The data should be as minimal as possible.
-Ex: Suppose to draw an line, you used events in the following order
+
+Ex: Suppose to draw a line, you used events in the following order
+
     1. mouseDown
     2. drag(s)
     3. mouseUp
-Then you need to optimize the logic to make sure that this data is minimal
+Example: 
+```
+[
+  {
+    type: 'down',
+    x-point: 0,
+    y-point: 0
+  },
+  {
+    type: 'drag',
+    x-point: 1,
+    y-point: 0
+  },
+  {
+    type: 'drag',
+    x-point: 2,
+    y-point: 0
+  },
+  {
+    type: 'up',
+    x-point: 2,
+    y-point: 0
+  }
+]
+```
+Then you need to reduce the overall size of the array, and the size of the individual objects.
 
 ## Hmm... And how will you evaluate it?
 1. The code quality.
