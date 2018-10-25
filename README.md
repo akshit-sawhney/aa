@@ -3,10 +3,12 @@
 SUPER EFFICIENT DRAWING BOARD
 
 ## Why should I do it?
-1. The best solution will receive a Sony Headphone
-![Headphones!!](https://brain-images-ssl.cdn.dixons.com/4/9/10145294/u_10145294.jpg)
-2. The second best solution will receive an Amazon Kidnle
-![Kindle!!](https://images-na.ssl-images-amazon.com/images/I/51hrdzXLUHL.jpg)
+1. The best solution will receive an Amazon Kidnle
+<br />
+<img src="https://images-na.ssl-images-amazon.com/images/I/51hrdzXLUHL.jpg" width=100>
+2. The second best solution will receive a Sony Headphone
+<br />
+<img src="https://brain-images-ssl.cdn.dixons.com/4/9/10145294/u_10145294.jpg" width=100>
 
 ## Ok... But what am I supposed to do?
   - [ ] [COOL DRAW](#cool-draw)
